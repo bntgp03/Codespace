@@ -1,0 +1,28 @@
+{
+  "name": "bintangp02",
+  "version": "1.0.0",
+  "description": "Minum setiap 10 menit",
+  "main": "bot.js",
+  "scripts": {
+    "test": "npm install @whiskeysockets/baileys @hapi/boom pino && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bntgp03/minum10.git"
+  },
+  "keywords": [
+    "botminum10menit"
+  ],
+  "author": "Bintangpratama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bntgp03/minum10/issues"
+  },
+  "homepage": "https://github.com/bntgp03/minum10#readme",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^7.0.0-rc.4",
+    "pino": "^9.12.0",
+    "qrcode": "^1.5.4"
+  }
+}
